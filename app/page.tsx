@@ -19,7 +19,12 @@ export default function Home() {
   return (
     <>
       <main className="relative">
-        <video ref={vidRef} muted loop src={'/people.mp4'} />
+        <video
+          ref={vidRef}
+          muted
+          loop
+          src="https://res.cloudinary.com/dj9m3f8ux/video/upload/v1715675012/people_d6byyk.mp4"
+        />
 
         <button
           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
